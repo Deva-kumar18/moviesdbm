@@ -1,0 +1,6 @@
+@import url('./Pages/LoginForm/LoginForm.css');
+@import url('./Pages/LoginForm/LoginPage/LoginPage.css');
+html,body{
+    margin: 0;
+    padding: 0;
+}

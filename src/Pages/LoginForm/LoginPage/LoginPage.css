@@ -1,0 +1,36 @@
+.lp-container{
+    height: 100vh;
+   background-size: cover;
+   position: relative;
+}
+.login-form{
+    position: absolute;
+    top: 20vh;
+    right: 10vw;
+}
+
+
+
+
+  
+  @media (max-width: 320px) {
+    .lp-container {
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .login-form {
+     
+    }
+  }
+  
+  
+  @media (min-width: 1025px) {
+    .login-form {
+      
+    }
+  }
+  

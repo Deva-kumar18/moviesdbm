@@ -1,0 +1,117 @@
+form.login-form {
+    height: 320px;
+    background-color: #9e9e9ec9;
+    width: 246px;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid rgb(136, 7, 7);
+    padding: 4px;
+
+    
+}
+.input-field{
+    display: grid;
+    padding: 10px 14px;
+    
+    
+    
+}
+.validation{
+    color: red;
+    font-weight: 800;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+
+
+button.login-btn {
+    height: 30px;
+    width: 114px;
+    margin-left: 60px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+.u-icon{
+    height: 50px;
+    width: 50px;
+    margin-left: 93px;
+    margin-top: 6px;
+}
+.i-cont{
+    position: relative;
+}
+.user-ico{
+    position: absolute;
+    margin-top: 10px;
+}
+.common-in{
+    
+}
+input.user-input{
+     height: 28px;
+    border-radius: 10px;
+    outline: gray;
+    border: none;
+   position: relative;
+   
+   
+}
+.visibility-ico {
+    position: absolute;
+    margin-top: 23px;
+    margin-left: 186px;
+}
+.login-btn:hover{
+    background-color: green;
+    color: white;
+    font-weight: 800;
+    height: 30px;
+}
+label.input-label {
+    margin-bottom: 2px;
+    margin-left: 4px;
+    letter-spacing: 2px;
+}
+.pass-input{
+    height: 28px;
+   border-radius: 10px;
+   outline: grey;
+   border: none;
+   position: relative;
+   
+}
+
+.user-ico {
+    position: absolute;
+    
+    
+}
+.heading {
+    font-size: 20px;
+    width: 100px;
+    letter-spacing: 2px;
+   
+}
+.header{
+    margin-left: 90px;
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root{
+    font-size: 22px;
+    color: grey;
+}
+.f-password{
+margin-top: 1px;
+margin-left: 112px;
+text-decoration: underline;
+
+}
+
+input{
+    padding: 0px 10px;
+   
+}
+
+
