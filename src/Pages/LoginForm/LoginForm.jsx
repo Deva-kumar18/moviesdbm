@@ -1,8 +1,12 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import PersonIcon from "@mui/icons-material/Person";
 import Visibility from "@mui/icons-material/Visibility";
 import Invisibility from "@mui/icons-material/VisibilityOff";
 import Video from "../../Assets/video.png";
+import axios from "axios";
+import { toast } from "react-toastify";
+
 
 const LoginForm = () => {
   const [inputType, setInputType] = useState("password");
@@ -10,6 +14,14 @@ const LoginForm = () => {
   const [password, setPassword] = useState("");
   const [userIdError, setUserIdError] = useState("");
   const [passwordError, setPasswordError] = useState("");
+  const navigate = useNavigate();
+
+  const sucessToast = () => {
+    toast.success("Login success", {
+      position: "top-right",
+      autoClose: 3000,
+    });
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -26,11 +38,15 @@ const LoginForm = () => {
       }
     } else {
       console.log("Form data submitted:", userId, password);
+      navigate("/");
+
+      sucessToast();
     }
   };
 
   return (
     <div>
+       
       <form className="login-form" onSubmit={handleSubmit}>
         <img className="u-icon" src={Video} />
         <div className="input-container">
@@ -77,7 +93,7 @@ const LoginForm = () => {
           </div>
           <div className="forgot-p">
             <p className="f-password">forgot password</p>
-            <button className="login-btn" type="submit">
+            <button className="login-btn" type="submit" >
               Login
             </button>
           </div>

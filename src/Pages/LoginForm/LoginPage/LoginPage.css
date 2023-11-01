@@ -1,7 +1,13 @@
 .lp-container{
     height: 100vh;
+    width: 100vw;
    background-size: cover;
    position: relative;
+}
+.b-image{
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 .login-form{
     position: absolute;
@@ -13,24 +19,36 @@
 
 
   
-  @media (max-width: 320px) {
+  @media (width: 320px) {
     .lp-container {
         height: 100vh;
-        width: 100vw;
-        background-size: cover;
+        width: 100vw;   
+    }
+    .b-image{
+      height: 100%;
+      width: 100%;
+      position: absolute;
     }
   }
-  
-  @media (min-width: 769px) and (max-width: 1024px) {
-    .login-form {
+   
+  @media (width:400px){
+    .lp-container {
+      height: 100vh;
+      width: 100vw;
      
-    }
   }
-  
-  
-  @media (min-width: 1025px) {
-    .login-form {
-      
-    }
-  }
-  
+}
+@media (width:425px){
+  .lp-container {
+    height: 100vh;
+    width: 100vw;
+    
+}
+}
+@media (width:375px){
+  .lp-container {
+    height: 100vh;
+    width: 100vw;
+    
+}
+}

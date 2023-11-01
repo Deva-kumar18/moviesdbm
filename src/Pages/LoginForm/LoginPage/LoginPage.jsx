@@ -4,7 +4,8 @@ import Back from '../../../Assets/background.jpg'
 
 const LoginPage = () => {
   return (
-    <div className='lp-container' style={{ backgroundImage: `url(${Back})` }}><LoginForm/></div>
+    <div className='lp-container' >
+      <img src={Back} className='b-image'/><LoginForm/></div>
   )
 }
 

@@ -1,0 +1,29 @@
+.Layout-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: brown;
+    position: relative;
+}
+.header{
+    position: absolute;
+    height: 8vh;
+    width: 100vw;
+    background-color: #E91E63;
+    top: 0vh;
+    left: 0vw;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.logout-btn {
+    padding: 8px 28px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 10px;
+    font-weight: 700;
+    background-color: rgba(128, 128, 128, 0.568);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.342);
+}
