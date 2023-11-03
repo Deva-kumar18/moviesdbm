@@ -153,7 +153,7 @@ const LoginForm = () => {
             <button className="login-btn" type="submit">
               Login
             </button>
-            <button onClick={getRequestToken}>Guest</button>
+            {/* <button onClick={getRequestToken}>Guest</button> */}
           </div>
         </div>
       </form>
