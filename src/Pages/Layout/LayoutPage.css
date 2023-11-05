@@ -1,29 +1,105 @@
-.Layout-container{
-    height: 100vh;
-    width: 100vw;
-    background-color: brown;
-    position: relative;
+.Layout-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #c72b29;
+  position: relative;
+  
 }
-.header{
-    position: absolute;
-    height: 8vh;
-    width: 100vw;
-    background-color: #E91E63;
-    top: 0vh;
-    left: 0vw;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+.header {
+  position: absolute;
+  height: 8vh;
+  width: 100vw;
+  background-color: #e91e63;
+  top: 0vh;
+  left: 0vw;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
 
+
+.movie-list {
+  transition: transform 0.5s; 
 }
-.logout-btn {
-    padding: 8px 28px;
-    border-radius: 8px;
-    border: none;
-    margin-right: 10px;
-    font-weight: 700;
-    background-color: rgba(128, 128, 128, 0.568);
+
+.movie-list:hover {
+  transform: scale(1.05); 
+  background-color: #6d6769;
+}
+.movie-vote{
+  color: white;
+  border: 1px solid white;
+  
+}
+
+
+
+.movie-list {
+  list-style-type: none;
+  height: 22rem;
+  width: 16rem;
+  background: #9e9e9ec9;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+  border-radius: 6px;
+  border: 1px solid white;
+  
+}
+img.movie-images {
+  height: 18rem;
+  width: 15rem;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+  .movie-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .movie-title {
+    letter-spacing: 2px;
     color: white;
-    border: 1px solid rgba(255, 255, 255, 0.342);
+    border: 1px solid white;
+    background-color: red;
+   
+    
+    
+}
+  
+  .movie-flex {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    text-align: center;
+    padding-bottom: 7px;
+}
+.movie-container{
+ 
+}
+
+
+h1 {
+  text-align: center;
+}
+
+.logout-btn {
+  padding: 8px 28px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 10px;
+  font-weight: 700;
+  background-color: rgba(128, 128, 128, 0.568);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.342);
+}
+.movie-landing-page {
+  position: absolute;
+  width: 100vw;
+  height: 92vh;
+  top: 8vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
