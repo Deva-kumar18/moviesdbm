@@ -24,6 +24,7 @@
     vertical-align: top;
     border: 0;
     filter: brightness(0.5);
+    height: 100vh;
     
 }
 .m-title {
@@ -31,9 +32,10 @@
     top: 29rem;
     color: #FFFFFF;
     font-size: 2rem;
-    left: 40rem;
+    left: 39rem;
     font-weight: 800;
 }
+
 
   .poster{
     position: relative;
