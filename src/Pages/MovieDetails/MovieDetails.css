@@ -1,0 +1,53 @@
+/* .banner {
+    align-items: center;
+    height: 70vh;
+  } */
+  .carousel {
+    height: 100vh;
+  }
+  .image-overview {
+    position: absolute;
+    top: 31rem;
+    color: #FFFFFF;
+    font-weight: 800;
+    height: 5rem;
+    width: 90vw;
+    margin-left: 5vw;
+    letter-spacing: 2px;
+    
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+}
+.carousel .slide img {
+    width: 100%;
+    vertical-align: top;
+    border: 0;
+    filter: brightness(0.5);
+    
+}
+.m-title {
+    position: absolute;
+    top: 29rem;
+    color: #FFFFFF;
+    font-size: 2rem;
+    left: 40rem;
+    font-weight: 800;
+}
+
+  .poster{
+    position: relative;
+  }
+  .run-time {
+    position: absolute;
+    top: 30rem;
+    height: 2rem;
+    width: 13rem;
+    border-radius: 4px;
+    padding: 0.5rem;
+    color: white;
+    margin-left: 7rem;
+    font-weight: 900;
+    font-size: 18px;
+}
+  
