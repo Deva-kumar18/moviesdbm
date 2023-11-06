@@ -57,6 +57,7 @@ img.movie-images {
   .movie-container{
     display: flex;
     flex-wrap: wrap;
+    padding: 1px 56px;
     
   }
   .movie-title {
