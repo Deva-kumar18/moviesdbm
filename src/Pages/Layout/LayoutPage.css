@@ -5,6 +5,7 @@
   position: relative;
   
 }
+
 .header {
   position: absolute;
   height: 8vh;
@@ -57,7 +58,7 @@ img.movie-images {
   .movie-container{
     display: flex;
     flex-wrap: wrap;
-    padding: 1px 59px;
+    padding: 32px 59px;
     
   }
   .movie-title {

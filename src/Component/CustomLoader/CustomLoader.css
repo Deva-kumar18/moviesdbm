@@ -1,0 +1,21 @@
+.custom-loader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: grey;
+  }
+  
+ 
+  .m-loader-gif{
+   
+  } 
+
+  .loader-text {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #3498db;
+  }
+  
+ 

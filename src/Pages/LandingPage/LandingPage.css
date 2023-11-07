@@ -1,0 +1,46 @@
+.search-field{
+    background-color: black;
+    height: 3rem;
+    width: 100vw;
+    position: fixed;
+    top: 8vh;
+    display: flex;
+    justify-content: end;
+    right: 4vw;
+    
+    
+    
+  }
+  .movie-search{
+    height: 2rem;
+    margin-top: 0.5rem;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid white;
+    
+  }
+  .s-icon{
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    
+    
+  }
+  .input-search{
+  position: relative;
+  }
+  
+
+.search-icon {
+    
+   
+    
+}
+.s-icon{
+    font-size: 30px !important;
+}
+.m-rating{
+    color: white;
+    border: 1px solid white;
+    
+  }

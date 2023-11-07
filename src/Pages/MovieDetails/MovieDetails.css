@@ -54,4 +54,38 @@
     font-size: 15px;
     background-color: blueviolet;
 }
+
+
+  .play-button{
+    position: absolute;
+    top: 29rem;
+
+    display: flex;
+    left: 28rem;
+    
+  }
+  .play-container{
+    height: 80px;
+    width: 140px;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    
+  }
   
+  .p-button {
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: darkgray;
+    border: none;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.p-ico{
+    margin-left: 5px;
+    
+}
